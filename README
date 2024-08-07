@@ -1,9 +1,12 @@
-﻿<h1> linkedin-web-app </h1>
-<hr>
+#LINKEDIN -WEB-APP
 
-tech stacks
+#tech stacks
+
+FRONT-END
 React
 Redux
 Material Ui
+
+BACKEND
 Firebase
 
