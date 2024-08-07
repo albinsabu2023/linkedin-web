@@ -1,0 +1,28 @@
+.headerOption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+    color: gray;
+}
+.headerOption:hover{
+    color: black;
+}
+.headerOptionTitle{
+    font-size: small;
+}
+
+.headerOptionAvatar{
+    object-fit: contain;
+    height: 25px !important;
+    width: 25px !important;
+}
+@media screen and (max-width:800px) {
+    .headerOptionTitle{
+        display: none;
+    }
+    .headerOption{
+        padding-right: 20px;
+    }
+}

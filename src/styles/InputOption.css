@@ -1,0 +1,19 @@
+.inputOptionContainer{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+   
+}
+.inputOptionContainer:hover{
+    background-color:whitesmoke;
+}
+
+@media screen and (max-width:800px) {
+    .inputOptionContainer{
+        flex: 1;
+        width: 100%;
+        margin: 10px;
+    }
+}

@@ -1,0 +1,79 @@
+.sideBar{
+    flex: .2;
+}
+
+.sideBarTop, .sidebarStats{
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.sideBarTop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 0px ;
+    border-bottom-right-radius: 0px ;
+}
+
+
+.sideBarTop img{
+    margin-bottom: -10px;
+    width: 100%;
+    height: 60px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    object-fit: cover;
+    
+}
+
+.sidebarStats{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.sideBarStat p{
+    padding-bottom: 10px;
+    
+}
+.sideBarStat p span {
+    padding-left:10px ;
+    font-weight: bold;
+    color: rgb(4, 156, 227);
+}
+
+.sideBarBottom{
+    text-align: left;
+    border-radius: 10px;
+    background-color: white;
+    /* border: 1px solid lightgray; */
+    margin: 10px;
+    padding: 10px;
+}
+.sideBarRecentItem{
+    display: flex;
+    color: gray;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 13px;
+
+}
+.sideBarBottom p{
+    font-weight: bold;
+}
+.sideBarRecentItem:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+@media screen and (max-width:800px) {
+    .sideBar {
+           display: none;
+        }
+}

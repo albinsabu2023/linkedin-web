@@ -1,0 +1,54 @@
+.widjet{
+    flex: .2;
+    position: sticky;
+    top: 80px;
+    
+}
+
+.widjetNews{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.widjetArticle:hover{
+    cursor: pointer;
+   box-shadow:2px 2px 10px 2px rgb(194, 194, 194);
+}
+.widjetNews h2{
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+.widjetArticle{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.widjetLeft{
+   color:rgb(2, 141, 210) ;
+   margin-right: 10px;
+}
+.widjetLeft >.MuiSvgIcon-root{
+    font-size: 15px;
+}
+.widjetRight>h1{
+    font-size: medium;
+}
+.widjetRight>p{
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media  screen and (max-width:800px) {
+    .widjet{
+        display: none;
+    }
+}
